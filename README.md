@@ -9,6 +9,7 @@ The task is to use TypeScript to fetch data from a 3rd party service
 3. Create 1 function which takes to 3 paramerters: maxResults (the total number of results returned), resultFrom (the number of results to be skipped), and streetAddressPostCode (the postal code address). This function should return a list of all the countries satisfied the parameters. Each country in the list should have detailed information of that company. For example:
 
 ```
+[
 {
       "businessId": "3355613-6",
       "name": "Interface compatibility Oy",
@@ -167,6 +168,7 @@ The task is to use TypeScript to fetch data from a 3rd party service
       ],
       "businessIdChanges": []
     }
+]
 ```
 
 4. Your application should have good structure, clean code format, and comprehensive naming convention.
