@@ -1,4 +1,7 @@
 import axios, { AxiosError } from "axios";
+import { Business } from "./types/business";
+
+const baseUrl = 'https://avoindata.prh.fi/bis/v1'
 
 const fetchData = async <T>(endpoint: string) => {
     try {
